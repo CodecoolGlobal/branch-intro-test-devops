@@ -7,7 +7,7 @@ pipeline {
                 sh 'git clone https://github.com/Gargameth/PomDataDrivenTesting.git projectroot'
                 sh 'cd projectroot'
                 sh 'echo $JAVA_HOME'
-                sh 'echo java --version'
+                sh 'java --version'
                 sh 'mvn clean compile'
             }
         }
