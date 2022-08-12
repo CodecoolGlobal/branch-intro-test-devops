@@ -18,7 +18,7 @@ public class TestChromeCheckout {
 
     @BeforeClass
     public void setUp() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("http://localhost:8080/");

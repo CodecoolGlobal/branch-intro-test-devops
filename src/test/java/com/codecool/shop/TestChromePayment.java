@@ -18,7 +18,7 @@ public class TestChromePayment {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
